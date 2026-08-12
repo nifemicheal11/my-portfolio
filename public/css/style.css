@@ -737,7 +737,7 @@ header nav ul {
 
   header{
 
-    position: fixed;
+    position: ;
 
     width: 100%;
 
@@ -759,7 +759,7 @@ header nav ul {
 
   header nav ul {
 
-    display: none;
+    display: ;
 
     transform: translateX(-100%);
 
@@ -809,7 +809,7 @@ header nav ul {
 
   .hero-section{
 
-    display: none;
+    display: ;
 
     background-image: url("../IMG_6549.JPG");
 
