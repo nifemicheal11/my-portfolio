@@ -521,7 +521,7 @@ header nav ul {
 
   border: 2px solid gray;
 
-  background-color: transparent;
+  background-color: rgb(27, 33, 67);
 
 }
 
@@ -529,9 +529,9 @@ header nav ul {
 
 .left-side-content .icons-content > a:hover{
 
-  background-color: black;
+  background-color:white;
 
-  color: white;
+  color:rgb(27, 33, 67);
 
   transition: 0.5s;
 
@@ -809,13 +809,17 @@ header nav ul {
 
   .hero-section{
 
-    background-image: url("./public/image/IMG-20250716-WA0006.jpg");
+    display: none;
+
+    background-image: url("../IMG_6549.JPG");
 
     background-position: center;
 
     background-size: cover;
 
     width: 100%;
+
+    flex-direction: column;
 
     padding-inline: 10px;
 
@@ -827,13 +831,21 @@ header nav ul {
 
     background: rgba(255, 255, 255, 0.47);
 
-    padding: 10px;
+    padding-inline: 10px;
 
     width: 100%;
 
     text-align: center;
 
     backdrop-filter: blur(10px);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
 
   }
 
@@ -846,6 +858,7 @@ header nav ul {
 
 
   .hero-section .image-content{
+    width: 100%;
 
     display: none;
 
@@ -860,6 +873,7 @@ header nav ul {
   .about-section{
 
     width: 100%;
+    padding-inline: 20px;
 
   }
 
