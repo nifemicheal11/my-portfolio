@@ -1,56 +1,73 @@
-<!Doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="./public/css/style.css" />
+<link rel="stylesheet" href=".//public/css/style.css">
 <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
 integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
 crossorigin="anonymous"
-referrerpolicy="no-referrer"
+referrerpolicy="no-referrer"/>
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"defer></script>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
 <title>Document</title>
+<script src="./public/js/main.js" defer></script>
 </head>
 <body>
 <header>
 <nav>
-<h1>NIFEMI</h1>
-
-<ul>
+<div class="logo">
+<h1>Portfolio</h1>
+</div>
+<ul id="menu-list">
 <li><a href="#">Home</a></li>
 <li><a href="#">Service</a></li>
 <li><a href="#">Projects</a></li>
 <li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
 </ul>
-<button class="btn-primary">Book a call</button>
+<div class="flex items-center!">
+<button class="btn-primary hidden lg:block">Book a call</button>
+<button id="menu" class="block lg:hidden text-2xl"><i class="fa fa-solid fa-bars"></i></button>
+<!-- <button id="close" class="block lg:hidden text-2xl"><i class="fa fa-solid fa-times"></i></button> -->
+</div>
 </nav>
 </header>
 
 <main>
+<!-- hero section -->
 <section class="hero-section">
 <div class="text-content">
-<h3>Hi,I'm a Developer Buliding App</h3>
+<h3>Hi,I build applications and websites.</h3>
 <h1>Software Developer.</h1>
 <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-veniam. Nihil aut soluta itaque quam!
+Clean code. Modern design. User-friendly interfaces. I create digital experiences that are both functional and visually appealing.
 </p>
 <div class="btn-container">
-<button class="btn-primary"><a href="http://c:\Users\USER\Desktop\tailwind practice\index.html">Let's Connect</a></button>
+<button class="btn-primary">Let's Connect</button>
 <button class="btn-secondary">See my work</button>
 </div>
 </div>
 
 <div class="image-content">
 <div class="image-box">
-<img src="./images/IMG_6549.JPG"/>
+<img
+src="./public/IMG_6549.JPG"
+alt="loading..."
+/>
 </div>
 
 <div class="self-content">
 <div class="box-1">
 <h3>1M+</h3>
+
+<h class="animate__animated animate__bounce">
 <p>Coding Hours</p>
 </div>
 <div class="box-2">
@@ -61,6 +78,7 @@ veniam. Nihil aut soluta itaque quam!
 <h3>140+</h3>
 <p>Projects Completed</p>
 </div>
+
 <div class="box-4">
 <h3>10+</h3>
 <p>Years of Experience</p>
@@ -69,12 +87,13 @@ veniam. Nihil aut soluta itaque quam!
 </div>
 </section>
 
+<div class="section-div">
+
 <section class="about-section">
 <div class="section-heading">
-<h2>About Us</h2>
+<h2>About me</h2>
 <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-molestias officia as.
+Im a frontend developer with a passion for creating beautiful and functional web applications. I have experience working with a variety of technologies and frameworks, and I am always eager to learn new things.
 </p>
 </div>
 
@@ -82,24 +101,25 @@ molestias officia as.
 <div class="left-side-content">
 <div class="profile-image-box">
 <img
-src="./images/IMG_6549.JPG"
+src="./public/IMG_6549.JPG"
+alt="image"
 />
 </div>
-
 <div class="status">
 <div class="status-box"></div>
 <p>Available for work</p>
 </div>
 
 <div class="my-info">
-<h2>OJO OLUWANIFEM</h2>
-<p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vita
+<h2>OJO OLUWANIFEMI</h2>
+<p> Im a frontend developer with a passion for creating beautiful and functional web applications. I
+have experience working with a variety of technologies and frameworks, and I am always eager to
+learn new things.
 </p>
 </div>
 
 <div class="icons-content">
-<a href="https://www.instagram.com/heavyhead_gram/">
+<a href="https://www.instagram.com/heavyhead_gram?igsh=cGJuM2lhNm5uODY5&utm_source=qr">
 <i class="fa-brands fa-instagram"></i>
 </a>
 <a href="#">
@@ -108,21 +128,21 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Vita
 <a href="https://github.com/nifemicheal11">
 <i class="fa-brands fa-github"></i>
 </a>
-<a href="https://wa.me/+2349028629262">
+<a href="https://wa.me/09028629262">
 <i class="fa-brands fa-x-twitter"></i>
 </a>
 </div>
 
-<button class="btn-primary"><a href="http://c:\Users\USER\Desktop\tailwind practice\index.html">Let's Connect</a></button>
+<button class="btn-primary">Let's Connect</button>
 </div>
 
 <div class="right-side-content">
 <div class="profile-summary-box">
-<h2>OJO NIFEMI</h2>
+<h2>OJO OLUWANIFEMI</h2>
 <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-assumenda laudantium cumque iure sequi asperiores omnis
-voluptate minima quo excepturi.
+Frontend developer with a passion for creating beautiful and functional web applications. I have
+experience working with a variety of technologies and frameworks, and I am always eager to learn new
+things.
 </p>
 <p>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
@@ -153,20 +173,20 @@ voluptate minima quo excepturi.
 <div>
 <p>Product Designer</p>
 <p>NextTexh</p>
-<p>2026</p>
+<p>2017</p>
+</div>
+<div>
+<p>Product Designer</p>
+<p>Pan Center</p>
+<p>2020</p>
 </div>
 <div>
 <p>Product Designer</p>
 <p>NextTexh</p>
-<p>2026</p>
+<p>2024</p>
 </div>
 <div>
-<p>Product Designer</p>
-<p>NextTexh</p>
-<p>2026</p>
-</div>
-<div>
-<p>Product Designer</p>
+<p>Frontend Developer</p>
 <p>NextTexh</p>
 <p>2026</p>
 </div>
@@ -176,6 +196,151 @@ voluptate minima quo excepturi.
 </div>
 </div>
 </section>
+
+<!-- proect section -->
+<section class="w-full lg:w-300 mx-auto! space-y-10! py-20! ">
+<div class="text-center">
+<h2 class="text-2xl font-semibold">Project</h2>
+
+<p>A clear workflow of each of my projects.</p>
+
+</div>
+
+
+<div class=" space-y-5!">
+<div class=" grid grid-cols-1 lg:grid-cols-3 gap-10">
+<article class="flex flex-col text-white items-start justify-end h-80 bg-sky-600! p-10! rounded-lg
+project-bg-1 ">
+<h3 class="text-2xl font-semibold">Project 1</h3>
+<p>Description about my project</p>
+</article>
+
+<article class="flex flex-col text-white items-start justify-end h-80 bg-sky-600! p-10! rounded-lg
+project-bg-2 ">
+
+<h3 class="text-2xl font-semibold">Project 2</h3>
+<p>Description about my project</p>
+</article>
+
+<article class="flex flex-col text-white items-start justify-end h-80 bg-sky-600! p-10! rounded-lg
+project-bg-3 ">
+<h3 class="text-2xl font-semibold">Project 3</h3>
+<p>Description about my project</p></article>
+</div>
+
+<div class=" flex justify-between p-5! rounded-lg bg-white text-blue-950">
+<P > Build reliable. user-focused products with expert code</P>
+<button class=" btn-primary"> Book a call </button>
+</div>
+</div>
+</section>
+
+<!-- frequently asked questions -->
+<section class="w-full lg:w-300 lg:mx-auto! space-y-10! py-20! ">
+<div class=" text-center">
+<h2 class="text-2xl font-semibold"> Frequently Asked Questions</h2>
+<p> Answers to common questions about my work and processes.</p>
+</div>
+
+<div class="space-y-5!">
+<details class="rounded-lg bg-white text-blue-950 p-5!">
+<summary class="text-2xl font-semibold! flex justify-between items-center">
+<h3> What kind of project are you working on? </h3>
+<i class="fa fa-solid fa-times cursor pointer" ></i>
+</summary>
+<p class="pt-5!">I'm creating a professional portfolio website to establish my online presence and
+showcase the websites and applications I've built.</p>
+</details>
+
+<div class="space-y-5!">
+<details class="rounded-lg bg-white text-blue-950 p-5!">
+<summary class="text-2xl font-semibold! flex justify-between items-center">
+<h3> Do you take on freelance or full-time work?</h3>
+<i class="fa fa-solid fa-times cursor pointer" ></i>
+</summary>
+<p class="pt-5!">Yes! I'm available for freelance projects and always excited to collaborate on
+meaningful ideas. Feel free to get in touch to discuss your project.</p>
+</details>
+
+<div class="space-y-5!">
+<details class="rounded-lg bg-white text-blue-950 p-5!">
+<summary class="text-2xl font-semibold! flex justify-between items-center">
+<h3> How do you approach new projects? </h3>
+<i class="fa fa-solid fa-times cursor pointer" ></i>
+</summary>
+<p class="pt-5!">Every project begins with research and planning. I focus on creating intuitive
+designs, writing maintainable code, and delivering a fast, responsive, and user-friendly
+experience</p>
+</details>
+
+
+<div class="space-y-5!">
+<details class="rounded-lg bg-white text-blue-950 p-5!">
+<summary class="text-2xl font-semibold! flex justify-between items-center">
+<h3> Whats your typical project timeline? </h3>
+<i class="fa fa-solid fa-times cursor pointer" ></i>
+</summary>
+<p class="pt-5!">The timeline varies based on the project's requirements. After discussing your goals,
+I'll provide an estimated schedule and keep you updated throughout the development process.</p>
+</details>
+</div>
+
+
+
+
+
+</section>
+
+<!-- mid bar -->
+<section class="w-full lg:mx-0 lg:w-300 lg:mx-auto! bg-linear-90 from-blue-100 to-blue-300 rounded-lg h-100
+p-10! overflow-hidden">
+<div class="w-full lg:w-160 space-y-5! flex flex-col justify-center items-start h-full animate_animated
+animate_fadeInLeft">
+<h1 class="text-3xl font-bold">Your vision,my expertise.Lets create something <span
+class="text-yellow-
+900">exceptional</span></h1>
+<p>Ready to start? Schedule a consultation and lets shape your next big project</p>
+<button class="px-10! py-3! bg-blue-950 text-white font-semibold rounded-full border-2
+border-white cursor-pointer">Book a call</button>
+</div>
+</section>
+</div>
+
+
+
 </main>
+<footer class="overflow-hidden! p-10! bg-linear-180 from-white-400 to-blue-900 mt-10!">
+<div class="text-center py-10!">
+<h1 class="uppercase text-5xl lg:text-8xl font-bold">niffytech.ng</h1>
+</div>
+<div class="flex flex-col justify-center items-center gap-10! py-10! border-t border-gray-100/20">
+<nav>
+<ul class="flex items-center gap-10">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Work</a></li>
+<li><a href="#">FAQs</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<div class="flex gap-12 text-3xl text-gray-300">
+<a href="https://www.instagram.com/heavyhead_gram?igsh=cGJuM2lhNm5uODY5&utm_source=qr" class="border-2 border-gray-300/30 hover:bg-blue-950 hover:text-white transition-all w-14 h-
+14 rounded-full p-1 flex items-center justify-center"> <i class="fa-brands fa-linkedin-in"></i></a>
+<a href="https://wa.me/09028629262" class="border-2 border-gray-300/30 hover:bg-blue-950 hover:text-white transition-all w-14 h-
+14 rounded-full p-1 flex items-center justify-center"> <i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.instagram.com/heavyhead_gram?igsh=cGJuM2lhNm5uODY5&utm_source=q" class="border-2 border-gray-300/30 hover:bg-blue-950 hover:text-white transition-all w-14 h-
+14 rounded-full p-1 flex items-center justify-center"> <i class="fa-brands fa-instagram"></i></a>
+<a href="https://github.com/nifemicheal11" class="border-2 border-gray-300/30 hover:bg-blue-950 hover:text-white transition-all w-14 h-
+14 rounded-full p-1 flex items-center justify-center"> <i class="fa-brands fa-github"></i></i></a>
+
+</div>
+</div>
+
+<div class="flex flex-col lg:flex-row justify-center text-center lg:justify-between items-center mt-10 text-lg text-gray-100 ">
+<p>&copy; 2026 New horizons. All Rights Reserved</p>
+<p>Privacy | Terms of Service | Cookies | License</p>
+</div>
+</section>
 </body>
 </html>
