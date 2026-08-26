@@ -802,7 +802,7 @@ header nav ul {
 
 /* Moblie device  */
 
-/* }@media (max-width: 767px) {
+}@media (max-width: 767px) {
 
   main .section-div{
 
@@ -828,11 +828,11 @@ header nav ul {
 
     width: 100%;
 
-  } */
+  }
 
 
 
-  /* header nav ul {
+  header nav ul {
 
     display: none;
 
@@ -876,13 +876,13 @@ header nav ul {
 
     display: none !important;
 
-  } */
+  }
 
 
 
   /* hero-section */
 
-  /* .hero-section{
+  .hero-section{
 
     display: ;
 
@@ -937,7 +937,7 @@ header nav ul {
 
     display: none;
 
-  } */
+  }
 
 
 
@@ -945,7 +945,7 @@ header nav ul {
 
   /* about section */
 
-  /* .about-section{
+  .about-section{
 
     width: 100%;
     padding-inline: 20px;
@@ -975,4 +975,4 @@ header nav ul {
   }
 
 }
- */
+
