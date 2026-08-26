@@ -958,15 +958,19 @@ header nav ul {
 
     background-image: url("../vecteezy_ai-generated-programmer-coding-on-laptop-at-night_39191028.jpeg");
 
-   background-position: center;
-   
-   background-size:cover ;
-   
-   background-repeat: no-repeat;
 
-   width: 100%;
 
-   padding-right: 10%;
+
+    background-position: center;
+
+    background-size: cover;
+
+    width: 100%;
+
+    flex-direction: column;
+
+    display: ;
+
 
 
 
@@ -978,15 +982,17 @@ header nav ul {
 
   background-image: url(../vecteezy_two-business-people-shaking-hands-over-a-table_78353256.jpg);
 
-  background-position: center;
+   background-position: center;
 
-  background-size: cover ;
+    background-size: cover;
 
-  background-repeat: no-repeat;
+    width: 100%;
 
-  width: 100%;
+    flex-direction: column;
 
-  padding-right: 10%;
+    display: ;
+
+
 
   
 
@@ -998,15 +1004,16 @@ header nav ul {
 
   background-image: url(../vecteezy_laptop-displaying-delicious-artisan-bread-website_54789482.jpeg);
 
-  background-position: center;
+   background-position: center;
 
-  background-size: cover;
+    background-size: cover;
 
-  background-repeat: no-repeat;
+    width: 100%;
 
-  width: 100%;
+    flex-direction: column;
 
-  padding-left: 10%;
+    display: ;
+
 
 }
 
