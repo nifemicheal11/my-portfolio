@@ -800,231 +800,133 @@ header nav ul {
 
 
 
-
-
-/* Moblie device  */
-
-}@media (max-width: 767px) {
-
-  main .section-div{
-
-    margin-inline: 10px;
-
-  }
-
-  header{
-
-    position: ;
-
-    width: 100%;
-
-    height: 20px;
-
-    padding-top: 30px !important;
-
-  }
-
-
-
-  header nav{
-
-    width: 100%;
-
-  }
-
-
-
-  header nav ul {
-
-    display: none;
-
-    transform: translateX(-100%);
-
-    transition: 0.3s linear;
-
-  }
-
-
-
-
-
-   header nav ul.active{
-
-    width: 80%;
-
-    height: 100vh;
-
-    padding: 20px;
-
-    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    background: white;
-
-    display: block;
-
-    transform: translateX(0%);
-
-
-
-  }
-
-
-
-  .fa-times.active{
-
-    display: none !important;
-
-  }
-
-
-
-  /* hero-section */
-
-  .hero-section{
-
-    display: ;
-
-    background-image: url("../IMG_6549.JPG");
-
-    background-position: center;
-
-    background-size: cover;
-
-    width: 100%;
-
-    flex-direction: column;
-
-    padding-inline: 10px;
-
-  }
-
-
-
-  .hero-section .text-content{
-
-    background: rgba(255, 255, 255, 0.47);
-
-    padding-inline: 10px;
-
-    width: 100%;
-
-    text-align: center;
-
-    backdrop-filter: blur(10px);
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    flex-direction: column;
-
-  }
-
-  .text-content p{
-
-    width: 100%;
-
-  }
-
-
-
-  .hero-section .image-content{
-    width: 100%;
-
-    display: none;
-
-  }
-
-
-
-
-
-  /* about section */
-
-  .about-section{
-
-    width: 100%;
-    padding-inline: 20px;
-
-  }
-
-.project-bg-1 {
-  background-image: url("../vecteezy_ai-generated-programmer-coding-on-laptop-at-night_39191028.jpeg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 400px; /* important for mobile */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* Mobile device */
+@media (max-width: 767px) {
+
+main .section-div {
+margin-inline: 10px;
 }
 
+header {
+position: relative;
+width: 100%;
+height: auto;
+padding-top: 30px !important;
+}
 
+header nav {
+width: 100%;
+}
 
+header nav ul {
+display: none;
+transform: translateX(-100%);
+transition: 0.3s linear;
+}
+
+header nav ul.active {
+width: 80%;
+height: 100vh;
+padding: 20px;
+position: absolute;
+top: 0;
+left: 0;
+background: white;
+display: block;
+transform: translateX(0%);
+}
+
+.fa-times.active {
+display: none !important;
+}
+
+/* Hero Section */
+.hero-section {
+display: flex;
+background-image: url("../IMG_6549.JPG");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+flex-direction: column;
+padding-inline: 10px;
+min-height: 450px;
+}
+
+.hero-section .text-content {
+background: rgba(255, 255, 255, 0.47);
+padding-inline: 10px;
+width: 100%;
+text-align: center;
+backdrop-filter: blur(10px);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.text-content p {
+width: 100%;
+}
+
+.hero-section .image-content {
+width: 100%;
+display: none;
+}
+
+/* About Section */
+.about-section {
+width: 100%;
+padding-inline: 20px;
+}
+
+/* Project Backgrounds */
+.project-bg-1 {
+background-image: url("../vecteezy_ai-generated-programmer-coding-on-laptop-at-night_39191028.jpeg");
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+min-height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
 .project-bg-2 {
-  background-image: url("../vecteezy_two-business-people-shaking-hands-over-a-table_78353256.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 400px; /* important for mobile */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-    
+background-image: url("../vecteezy_two-business-people-shaking-hands-over-a-table_78353256.jpg");
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+min-height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
-
-
-.project-bg-3{
-
-  background-image: url("../vecteezy_laptop-displaying-delicious-artisan-bread-website_54789482.jpeg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 400px; /* important for mobile */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-
-  
+.project-bg-3 {
+background-image: url("../vecteezy_laptop-displaying-delicious-artisan-bread-website_54789482.jpeg");
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+min-height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
+.section-content {
+flex-direction: column;
+}
 
-
-  .section-content{
-
-    flex-direction: column;
-
-  }
-
-
-
-  .section-content .left-side-content{
-
-    width: 100%;
-
-  }
-
-  .section-content .right-side-content{
-
-    width: 100%;
-
-  }
-
+.section-content .left-side-content,
+.section-content .right-side-content {
+width: 100%;
+}
 }
 
